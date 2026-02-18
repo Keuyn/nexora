@@ -1,0 +1,1841 @@
+[00:00:13.487] Server  LOG     ✓ Ready in 9.4s
+[00:00:34.460] Server  LOG     ○ Compiling / ...
+[00:01:06.428] Server  LOG     ○ Compiling /chat ...
+[00:05:39.825] Server  LOG     ✓ Compiled in 3s
+[00:20:13.642] Server  LOG     ✓ Compiled in 4.7s
+[00:21:56.434] Server  LOG     ✓ Compiled in 258ms
+[00:22:00.382] Server  WARN    ⚠ Fast Refresh had to perform a full reload when [hmr-entry]/hmr-entry.js { ENTRY => "[project]/pages/_app" } changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:22:00.383] Browser LOG     Refreshing page data due to server-side change
+[00:22:00.392] Server  WARN    ⚠ Fast Refresh had to perform a full reload when [hmr-entry]/hmr-entry.js { ENTRY => "[project]/pages/_app" } changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:22:07.298] Server  WARN    ⚠ Fast Refresh had to perform a full reload when [hmr-entry]/hmr-entry.js { ENTRY => "[project]/pages/_app" } changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:22:07.298] Browser LOG     Refreshing page data due to server-side change
+[00:22:07.300] Server  WARN    ⚠ Fast Refresh had to perform a full reload when [hmr-entry]/hmr-entry.js { ENTRY => "[project]/pages/_app" } changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:39:13.306] Server  LOG     ✓ Compiled in 13s
+[00:43:50.433] Server  LOG     ✓ Compiled in 3.8s
+[00:46:22.342] Server  LOG     ✓ Compiled in 2.8s
+[00:49:46.770] Server  LOG     ✓ Compiled in 125ms
+[00:53:30.615] Server  LOG     ✓ Compiled in 2.4s
+[00:53:30.694] Browser ERROR   %o
+
+%s
+
+%s
+ {} The above error occurred in the <ChatWindow> component. React will try to recreate this component tree from scratch using the error boundary you provided, PagesDevOverlayErrorBoundary.
+[00:53:31.080] Browser ERROR   %o
+
+%s
+
+%s
+ {} The above error occurred in the <ChatWindow> component. React will try to recreate this component tree from scratch using the error boundary you provided, PagesDevOverlayErrorBoundary.
+[00:53:49.777] Server  LOG     ✓ Compiled in 473ms
+[01:04:07.137] Server  LOG     ✓ Compiled in 3.1s
+[01:06:26.370] Server  LOG     ✓ Compiled in 379ms
+[01:08:24.024] Server  LOG     ✓ Compiled in 188ms
+[01:12:34.098] Server  LOG     ✓ Compiled in 8.8s
+[01:12:34.849] Browser ERROR   %o
+
+%s
+
+%s
+ {} The above error occurred in the <div> component. React will try to recreate this component tree from scratch using the error boundary you provided, PagesDevOverlayErrorBoundary.
+[01:12:45.518] Browser ERROR   %o
+
+%s
+
+%s
+ {} The above error occurred in the <div> component. React will try to recreate this component tree from scratch using the error boundary you provided, PagesDevOverlayErrorBoundary.
+[01:12:45.519] Browser ERROR   %o
+
+%s
+
+%s
+ {} The above error occurred in the <div> component. React will try to recreate this component tree from scratch using the error boundary you provided, PagesDevOverlayErrorBoundary.
+[01:13:40.875] Browser ERROR   %o
+
+%s
+
+%s
+ {} The above error occurred in the <div> component. React will try to recreate this component tree from scratch using the error boundary you provided, PagesDevOverlayErrorBoundary.
+[01:13:40.919] Browser ERROR   %o
+
+%s
+
+%s
+ {} The above error occurred in the <div> component. React will try to recreate this component tree from scratch using the error boundary you provided, PagesDevOverlayErrorBoundary.
+[01:15:02.464] Browser ERROR   %o
+
+%s
+
+%s
+ {} The above error occurred in the <div> component. React will try to recreate this component tree from scratch using the error boundary you provided, PagesDevOverlayErrorBoundary.
+[01:15:02.508] Browser ERROR   %o
+
+%s
+
+%s
+ {} The above error occurred in the <div> component. React will try to recreate this component tree from scratch using the error boundary you provided, PagesDevOverlayErrorBoundary.
+[01:16:54.764] Server  LOG     ✓ Compiled in 110ms
+[01:17:22.234] Browser ERROR   %o
+
+%s
+
+%s
+ {} The above error occurred in the <div> component. React will try to recreate this component tree from scratch using the error boundary you provided, PagesDevOverlayErrorBoundary.
+[01:17:22.247] Browser ERROR   %o
+
+%s
+
+%s
+ {} The above error occurred in the <div> component. React will try to recreate this component tree from scratch using the error boundary you provided, PagesDevOverlayErrorBoundary.
+[01:18:04.929] Browser ERROR   %o
+
+%s
+
+%s
+ {} The above error occurred in the <div> component. React will try to recreate this component tree from scratch using the error boundary you provided, PagesDevOverlayErrorBoundary.
+[01:18:04.952] Browser ERROR   %o
+
+%s
+
+%s
+ {} The above error occurred in the <div> component. React will try to recreate this component tree from scratch using the error boundary you provided, PagesDevOverlayErrorBoundary.
+[01:19:59.112] Server  LOG     ✓ Compiled in 1971ms
+[01:19:59.174] Browser ERROR   ./components/ChatWindow.js:4:1
+Export default doesn't exist in target module
+  2 | import { io } from "socket.io-client";
+  3 | import { useRouter } from "next/router";
+> 4 | import RatingModal from "./RatingModal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export default function ChatWindow() {
+  7 |   const router = useRouter();
+
+The export default was not found in module [project]/components/RatingModal.js [client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Browser:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+
+  SSR:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+[01:19:59.174] Browser ERROR   ./components/ChatWindow.js:4:1
+Export default doesn't exist in target module
+  2 | import { io } from "socket.io-client";
+  3 | import { useRouter } from "next/router";
+> 4 | import RatingModal from "./RatingModal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export default function ChatWindow() {
+  7 |   const router = useRouter();
+
+The export default was not found in module [project]/components/RatingModal.js [ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Browser:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+
+  SSR:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+[01:20:02.477] Browser ERROR   ./components/ChatWindow.js:4:1
+Export default doesn't exist in target module
+  2 | import { io } from "socket.io-client";
+  3 | import { useRouter } from "next/router";
+> 4 | import RatingModal from "./RatingModal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export default function ChatWindow() {
+  7 |   const router = useRouter();
+
+The export default was not found in module [project]/components/RatingModal.js [client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Browser:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+
+  SSR:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+[01:20:02.477] Browser ERROR   ./components/ChatWindow.js:4:1
+Export default doesn't exist in target module
+  2 | import { io } from "socket.io-client";
+  3 | import { useRouter } from "next/router";
+> 4 | import RatingModal from "./RatingModal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export default function ChatWindow() {
+  7 |   const router = useRouter();
+
+The export default was not found in module [project]/components/RatingModal.js [ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Browser:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+
+  SSR:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+[01:20:15.650] Browser ERROR   ./components/ChatWindow.js:4:1
+Export default doesn't exist in target module
+  2 | import { io } from "socket.io-client";
+  3 | import { useRouter } from "next/router";
+> 4 | import RatingModal from "./RatingModal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export default function ChatWindow() {
+  7 |   const router = useRouter();
+
+The export default was not found in module [project]/components/RatingModal.js [client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Browser:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+
+  SSR:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+[01:20:15.650] Browser ERROR   ./components/ChatWindow.js:4:1
+Export default doesn't exist in target module
+  2 | import { io } from "socket.io-client";
+  3 | import { useRouter } from "next/router";
+> 4 | import RatingModal from "./RatingModal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export default function ChatWindow() {
+  7 |   const router = useRouter();
+
+The export default was not found in module [project]/components/RatingModal.js [ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Browser:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+
+  SSR:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+[01:20:15.650] Browser ERROR   ./components/ChatWindow.js:4:1
+Export default doesn't exist in target module
+  2 | import { io } from "socket.io-client";
+  3 | import { useRouter } from "next/router";
+> 4 | import RatingModal from "./RatingModal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export default function ChatWindow() {
+  7 |   const router = useRouter();
+
+The export default was not found in module [project]/components/RatingModal.js [client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Browser:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+
+  SSR:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+[01:20:15.650] Browser ERROR   ./components/ChatWindow.js:4:1
+Export default doesn't exist in target module
+  2 | import { io } from "socket.io-client";
+  3 | import { useRouter } from "next/router";
+> 4 | import RatingModal from "./RatingModal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export default function ChatWindow() {
+  7 |   const router = useRouter();
+
+The export default was not found in module [project]/components/RatingModal.js [ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Browser:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+
+  SSR:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+[01:20:15.665] Browser ERROR   ./components/ChatWindow.js:4:1
+Export default doesn't exist in target module
+  2 | import { io } from "socket.io-client";
+  3 | import { useRouter } from "next/router";
+> 4 | import RatingModal from "./RatingModal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export default function ChatWindow() {
+  7 |   const router = useRouter();
+
+The export default was not found in module [project]/components/RatingModal.js [client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Browser:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+
+  SSR:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+[01:20:15.665] Browser ERROR   ./components/ChatWindow.js:4:1
+Export default doesn't exist in target module
+  2 | import { io } from "socket.io-client";
+  3 | import { useRouter } from "next/router";
+> 4 | import RatingModal from "./RatingModal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export default function ChatWindow() {
+  7 |   const router = useRouter();
+
+The export default was not found in module [project]/components/RatingModal.js [ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Browser:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+
+  SSR:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+[01:20:15.665] Browser ERROR   ./components/ChatWindow.js:4:1
+Export default doesn't exist in target module
+  2 | import { io } from "socket.io-client";
+  3 | import { useRouter } from "next/router";
+> 4 | import RatingModal from "./RatingModal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export default function ChatWindow() {
+  7 |   const router = useRouter();
+
+The export default was not found in module [project]/components/RatingModal.js [client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Browser:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+
+  SSR:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+[01:20:15.665] Browser ERROR   ./components/ChatWindow.js:4:1
+Export default doesn't exist in target module
+  2 | import { io } from "socket.io-client";
+  3 | import { useRouter } from "next/router";
+> 4 | import RatingModal from "./RatingModal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export default function ChatWindow() {
+  7 |   const router = useRouter();
+
+The export default was not found in module [project]/components/RatingModal.js [ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Browser:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+
+  SSR:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+[01:20:18.347] Server  LOG     ○ Compiling /_error ...
+[01:20:27.882] Browser ERROR   ./components/ChatWindow.js:4:1
+Export default doesn't exist in target module
+  2 | import { io } from "socket.io-client";
+  3 | import { useRouter } from "next/router";
+> 4 | import RatingModal from "./RatingModal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export default function ChatWindow() {
+  7 |   const router = useRouter();
+
+The export default was not found in module [project]/components/RatingModal.js [client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Browser:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+
+  SSR:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+[01:20:27.882] Browser ERROR   ./components/ChatWindow.js:4:1
+Export default doesn't exist in target module
+  2 | import { io } from "socket.io-client";
+  3 | import { useRouter } from "next/router";
+> 4 | import RatingModal from "./RatingModal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export default function ChatWindow() {
+  7 |   const router = useRouter();
+
+The export default was not found in module [project]/components/RatingModal.js [ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Browser:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+
+  SSR:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+[01:20:27.882] Browser ERROR   ./components/ChatWindow.js:4:1
+Export default doesn't exist in target module
+  2 | import { io } from "socket.io-client";
+  3 | import { useRouter } from "next/router";
+> 4 | import RatingModal from "./RatingModal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export default function ChatWindow() {
+  7 |   const router = useRouter();
+
+The export default was not found in module [project]/components/RatingModal.js [client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Browser:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+
+  SSR:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+[01:20:27.882] Browser ERROR   ./components/ChatWindow.js:4:1
+Export default doesn't exist in target module
+  2 | import { io } from "socket.io-client";
+  3 | import { useRouter } from "next/router";
+> 4 | import RatingModal from "./RatingModal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export default function ChatWindow() {
+  7 |   const router = useRouter();
+
+The export default was not found in module [project]/components/RatingModal.js [ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Browser:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+
+  SSR:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+[01:20:27.883] Browser ERROR   ./components/ChatWindow.js:4:1
+Export default doesn't exist in target module
+  2 | import { io } from "socket.io-client";
+  3 | import { useRouter } from "next/router";
+> 4 | import RatingModal from "./RatingModal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export default function ChatWindow() {
+  7 |   const router = useRouter();
+
+The export default was not found in module [project]/components/RatingModal.js [client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Browser:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+
+  SSR:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+[01:20:27.883] Browser ERROR   ./components/ChatWindow.js:4:1
+Export default doesn't exist in target module
+  2 | import { io } from "socket.io-client";
+  3 | import { useRouter } from "next/router";
+> 4 | import RatingModal from "./RatingModal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export default function ChatWindow() {
+  7 |   const router = useRouter();
+
+The export default was not found in module [project]/components/RatingModal.js [ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Browser:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+
+  SSR:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+[01:20:27.883] Browser ERROR   ./components/ChatWindow.js:4:1
+Export default doesn't exist in target module
+  2 | import { io } from "socket.io-client";
+  3 | import { useRouter } from "next/router";
+> 4 | import RatingModal from "./RatingModal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export default function ChatWindow() {
+  7 |   const router = useRouter();
+
+The export default was not found in module [project]/components/RatingModal.js [client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Browser:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+
+  SSR:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+[01:20:27.883] Browser ERROR   ./components/ChatWindow.js:4:1
+Export default doesn't exist in target module
+  2 | import { io } from "socket.io-client";
+  3 | import { useRouter } from "next/router";
+> 4 | import RatingModal from "./RatingModal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export default function ChatWindow() {
+  7 |   const router = useRouter();
+
+The export default was not found in module [project]/components/RatingModal.js [ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Browser:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+
+  SSR:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+[01:20:36.553] Browser ERROR   uncaughtError: Error: ./components/ChatWindow.js:4:1
+Export default doesn't exist in target module
+  2 | import { io } from "socket.io-client";
+  3 | import { useRouter } from "next/router";
+> 4 | import RatingModal from "./RatingModal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export default function ChatWindow() {
+  7 |   const router = useRouter();
+
+The export default was not found in module [project]/components/RatingModal.js [client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Browser:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+
+  SSR:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+
+
+[01:20:36.559] Browser ERROR   uncaughtError: Error: ./components/ChatWindow.js:4:1
+Export default doesn't exist in target module
+  2 | import { io } from "socket.io-client";
+  3 | import { useRouter } from "next/router";
+> 4 | import RatingModal from "./RatingModal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export default function ChatWindow() {
+  7 |   const router = useRouter();
+
+The export default was not found in module [project]/components/RatingModal.js [client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Browser:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+
+  SSR:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+
+
+[01:20:37.173] Browser ERROR   ./components/ChatWindow.js:4:1
+Export default doesn't exist in target module
+  2 | import { io } from "socket.io-client";
+  3 | import { useRouter } from "next/router";
+> 4 | import RatingModal from "./RatingModal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export default function ChatWindow() {
+  7 |   const router = useRouter();
+
+The export default was not found in module [project]/components/RatingModal.js [client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Browser:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+
+  SSR:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+[01:20:37.174] Browser ERROR   ./components/ChatWindow.js:4:1
+Export default doesn't exist in target module
+  2 | import { io } from "socket.io-client";
+  3 | import { useRouter } from "next/router";
+> 4 | import RatingModal from "./RatingModal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export default function ChatWindow() {
+  7 |   const router = useRouter();
+
+The export default was not found in module [project]/components/RatingModal.js [ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Browser:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+
+  SSR:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+[01:20:37.801] Browser ERROR   ./components/ChatWindow.js:4:1
+Export default doesn't exist in target module
+  2 | import { io } from "socket.io-client";
+  3 | import { useRouter } from "next/router";
+> 4 | import RatingModal from "./RatingModal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export default function ChatWindow() {
+  7 |   const router = useRouter();
+
+The export default was not found in module [project]/components/RatingModal.js [client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Browser:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+
+  SSR:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+[01:20:37.801] Browser ERROR   ./components/ChatWindow.js:4:1
+Export default doesn't exist in target module
+  2 | import { io } from "socket.io-client";
+  3 | import { useRouter } from "next/router";
+> 4 | import RatingModal from "./RatingModal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export default function ChatWindow() {
+  7 |   const router = useRouter();
+
+The export default was not found in module [project]/components/RatingModal.js [ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Browser:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+
+  SSR:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+[01:20:37.978] Browser ERROR   ./components/ChatWindow.js:4:1
+Export default doesn't exist in target module
+  2 | import { io } from "socket.io-client";
+  3 | import { useRouter } from "next/router";
+> 4 | import RatingModal from "./RatingModal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export default function ChatWindow() {
+  7 |   const router = useRouter();
+
+The export default was not found in module [project]/components/RatingModal.js [client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Browser:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+
+  SSR:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+[01:20:37.978] Browser ERROR   ./components/ChatWindow.js:4:1
+Export default doesn't exist in target module
+  2 | import { io } from "socket.io-client";
+  3 | import { useRouter } from "next/router";
+> 4 | import RatingModal from "./RatingModal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export default function ChatWindow() {
+  7 |   const router = useRouter();
+
+The export default was not found in module [project]/components/RatingModal.js [ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Browser:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+
+  SSR:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+[01:20:38.010] Browser ERROR   ./components/ChatWindow.js:4:1
+Export default doesn't exist in target module
+  2 | import { io } from "socket.io-client";
+  3 | import { useRouter } from "next/router";
+> 4 | import RatingModal from "./RatingModal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export default function ChatWindow() {
+  7 |   const router = useRouter();
+
+The export default was not found in module [project]/components/RatingModal.js [client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Browser:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+
+  SSR:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+[01:20:38.010] Browser ERROR   ./components/ChatWindow.js:4:1
+Export default doesn't exist in target module
+  2 | import { io } from "socket.io-client";
+  3 | import { useRouter } from "next/router";
+> 4 | import RatingModal from "./RatingModal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export default function ChatWindow() {
+  7 |   const router = useRouter();
+
+The export default was not found in module [project]/components/RatingModal.js [ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Browser:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+
+  SSR:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+[01:21:16.374] Server  LOG     ✓ Compiled in 546ms
+[01:21:16.449] Browser ERROR   ./components/ChatWindow.js:4:1
+Export default doesn't exist in target module
+  2 | import { io } from "socket.io-client";
+  3 | import { useRouter } from "next/router";
+> 4 | import RatingModal from "./RatingModal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export default function ChatWindow() {
+  7 |   const router = useRouter();
+
+The export default was not found in module [project]/components/RatingModal.js [client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Browser:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+
+  SSR:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+[01:21:16.449] Browser ERROR   ./components/ChatWindow.js:4:1
+Export default doesn't exist in target module
+  2 | import { io } from "socket.io-client";
+  3 | import { useRouter } from "next/router";
+> 4 | import RatingModal from "./RatingModal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export default function ChatWindow() {
+  7 |   const router = useRouter();
+
+The export default was not found in module [project]/components/RatingModal.js [ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Browser:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+
+  SSR:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+[01:21:39.283] Browser ERROR   ./components/ChatWindow.js:4:1
+Export default doesn't exist in target module
+  2 | import { io } from "socket.io-client";
+  3 | import { useRouter } from "next/router";
+> 4 | import RatingModal from "./RatingModal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export default function ChatWindow() {
+  7 |   const router = useRouter();
+
+The export default was not found in module [project]/components/RatingModal.js [client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Browser:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+
+  SSR:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+[01:21:39.283] Browser ERROR   ./components/ChatWindow.js:4:1
+Export default doesn't exist in target module
+  2 | import { io } from "socket.io-client";
+  3 | import { useRouter } from "next/router";
+> 4 | import RatingModal from "./RatingModal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export default function ChatWindow() {
+  7 |   const router = useRouter();
+
+The export default was not found in module [project]/components/RatingModal.js [ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Browser:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+
+  SSR:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+[01:21:43.098] Server  LOG     ✓ Compiled in 332ms
+[01:21:43.231] Browser ERROR   ./components/ChatWindow.js:4:1
+Export default doesn't exist in target module
+  2 | import { io } from "socket.io-client";
+  3 | import { useRouter } from "next/router";
+> 4 | import RatingModal from "./RatingModal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export default function ChatWindow() {
+  7 |   const router = useRouter();
+
+The export default was not found in module [project]/components/RatingModal.js [client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Browser:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+
+  SSR:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+[01:21:43.231] Browser ERROR   ./components/ChatWindow.js:4:1
+Export default doesn't exist in target module
+  2 | import { io } from "socket.io-client";
+  3 | import { useRouter } from "next/router";
+> 4 | import RatingModal from "./RatingModal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export default function ChatWindow() {
+  7 |   const router = useRouter();
+
+The export default was not found in module [project]/components/RatingModal.js [ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Browser:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+
+  SSR:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+[01:21:46.496] Server  LOG     ✓ Compiled in 195ms
+[01:21:46.603] Browser ERROR   ./components/ChatWindow.js:4:1
+Export default doesn't exist in target module
+  2 | import { io } from "socket.io-client";
+  3 | import { useRouter } from "next/router";
+> 4 | import RatingModal from "./RatingModal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export default function ChatWindow() {
+  7 |   const router = useRouter();
+
+The export default was not found in module [project]/components/RatingModal.js [client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Browser:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+
+  SSR:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+[01:21:46.603] Browser ERROR   ./components/ChatWindow.js:4:1
+Export default doesn't exist in target module
+  2 | import { io } from "socket.io-client";
+  3 | import { useRouter } from "next/router";
+> 4 | import RatingModal from "./RatingModal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export default function ChatWindow() {
+  7 |   const router = useRouter();
+
+The export default was not found in module [project]/components/RatingModal.js [ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Browser:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+
+  SSR:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+[01:21:47.146] Browser ERROR   ./components/ChatWindow.js:4:1
+Export default doesn't exist in target module
+  2 | import { io } from "socket.io-client";
+  3 | import { useRouter } from "next/router";
+> 4 | import RatingModal from "./RatingModal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export default function ChatWindow() {
+  7 |   const router = useRouter();
+
+The export default was not found in module [project]/components/RatingModal.js [client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Browser:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+
+  SSR:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+[01:21:47.147] Browser ERROR   ./components/ChatWindow.js:4:1
+Export default doesn't exist in target module
+  2 | import { io } from "socket.io-client";
+  3 | import { useRouter } from "next/router";
+> 4 | import RatingModal from "./RatingModal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export default function ChatWindow() {
+  7 |   const router = useRouter();
+
+The export default was not found in module [project]/components/RatingModal.js [ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Browser:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+
+  SSR:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+[01:21:47.554] Browser ERROR   ./components/ChatWindow.js:4:1
+Export default doesn't exist in target module
+  2 | import { io } from "socket.io-client";
+  3 | import { useRouter } from "next/router";
+> 4 | import RatingModal from "./RatingModal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export default function ChatWindow() {
+  7 |   const router = useRouter();
+
+The export default was not found in module [project]/components/RatingModal.js [client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Browser:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+
+  SSR:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+[01:21:47.554] Browser ERROR   ./components/ChatWindow.js:4:1
+Export default doesn't exist in target module
+  2 | import { io } from "socket.io-client";
+  3 | import { useRouter } from "next/router";
+> 4 | import RatingModal from "./RatingModal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export default function ChatWindow() {
+  7 |   const router = useRouter();
+
+The export default was not found in module [project]/components/RatingModal.js [ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Browser:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+
+  SSR:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+[01:21:56.986] Browser ERROR   ./components/ChatWindow.js:4:1
+Export default doesn't exist in target module
+  2 | import { io } from "socket.io-client";
+  3 | import { useRouter } from "next/router";
+> 4 | import RatingModal from "./RatingModal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export default function ChatWindow() {
+  7 |   const router = useRouter();
+
+The export default was not found in module [project]/components/RatingModal.js [client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Browser:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+
+  SSR:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+[01:21:56.986] Browser ERROR   ./components/ChatWindow.js:4:1
+Export default doesn't exist in target module
+  2 | import { io } from "socket.io-client";
+  3 | import { useRouter } from "next/router";
+> 4 | import RatingModal from "./RatingModal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export default function ChatWindow() {
+  7 |   const router = useRouter();
+
+The export default was not found in module [project]/components/RatingModal.js [ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Browser:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+
+  SSR:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+[01:21:56.986] Browser ERROR   ./components/ChatWindow.js:4:1
+Export default doesn't exist in target module
+  2 | import { io } from "socket.io-client";
+  3 | import { useRouter } from "next/router";
+> 4 | import RatingModal from "./RatingModal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export default function ChatWindow() {
+  7 |   const router = useRouter();
+
+The export default was not found in module [project]/components/RatingModal.js [client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Browser:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+
+  SSR:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+[01:21:56.986] Browser ERROR   ./components/ChatWindow.js:4:1
+Export default doesn't exist in target module
+  2 | import { io } from "socket.io-client";
+  3 | import { useRouter } from "next/router";
+> 4 | import RatingModal from "./RatingModal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export default function ChatWindow() {
+  7 |   const router = useRouter();
+
+The export default was not found in module [project]/components/RatingModal.js [ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Browser:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+
+  SSR:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+[01:21:56.986] Browser ERROR   ./components/ChatWindow.js:4:1
+Export default doesn't exist in target module
+  2 | import { io } from "socket.io-client";
+  3 | import { useRouter } from "next/router";
+> 4 | import RatingModal from "./RatingModal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export default function ChatWindow() {
+  7 |   const router = useRouter();
+
+The export default was not found in module [project]/components/RatingModal.js [client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Browser:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+
+  SSR:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+[01:21:56.986] Browser ERROR   ./components/ChatWindow.js:4:1
+Export default doesn't exist in target module
+  2 | import { io } from "socket.io-client";
+  3 | import { useRouter } from "next/router";
+> 4 | import RatingModal from "./RatingModal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export default function ChatWindow() {
+  7 |   const router = useRouter();
+
+The export default was not found in module [project]/components/RatingModal.js [ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Browser:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+
+  SSR:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+[01:21:56.986] Browser ERROR   ./components/ChatWindow.js:4:1
+Export default doesn't exist in target module
+  2 | import { io } from "socket.io-client";
+  3 | import { useRouter } from "next/router";
+> 4 | import RatingModal from "./RatingModal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export default function ChatWindow() {
+  7 |   const router = useRouter();
+
+The export default was not found in module [project]/components/RatingModal.js [client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Browser:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+
+  SSR:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+[01:21:56.986] Browser ERROR   ./components/ChatWindow.js:4:1
+Export default doesn't exist in target module
+  2 | import { io } from "socket.io-client";
+  3 | import { useRouter } from "next/router";
+> 4 | import RatingModal from "./RatingModal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export default function ChatWindow() {
+  7 |   const router = useRouter();
+
+The export default was not found in module [project]/components/RatingModal.js [ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Browser:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+
+  SSR:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+[01:21:56.986] Browser ERROR   ./components/ChatWindow.js:4:1
+Export default doesn't exist in target module
+  2 | import { io } from "socket.io-client";
+  3 | import { useRouter } from "next/router";
+> 4 | import RatingModal from "./RatingModal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export default function ChatWindow() {
+  7 |   const router = useRouter();
+
+The export default was not found in module [project]/components/RatingModal.js [client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Browser:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+
+  SSR:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+[01:21:56.986] Browser ERROR   ./components/ChatWindow.js:4:1
+Export default doesn't exist in target module
+  2 | import { io } from "socket.io-client";
+  3 | import { useRouter } from "next/router";
+> 4 | import RatingModal from "./RatingModal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export default function ChatWindow() {
+  7 |   const router = useRouter();
+
+The export default was not found in module [project]/components/RatingModal.js [ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Browser:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+
+  SSR:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+[01:21:56.986] Browser ERROR   ./components/ChatWindow.js:4:1
+Export default doesn't exist in target module
+  2 | import { io } from "socket.io-client";
+  3 | import { useRouter } from "next/router";
+> 4 | import RatingModal from "./RatingModal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export default function ChatWindow() {
+  7 |   const router = useRouter();
+
+The export default was not found in module [project]/components/RatingModal.js [client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Browser:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+
+  SSR:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+[01:21:56.986] Browser ERROR   ./components/ChatWindow.js:4:1
+Export default doesn't exist in target module
+  2 | import { io } from "socket.io-client";
+  3 | import { useRouter } from "next/router";
+> 4 | import RatingModal from "./RatingModal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export default function ChatWindow() {
+  7 |   const router = useRouter();
+
+The export default was not found in module [project]/components/RatingModal.js [ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Browser:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+
+  SSR:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+[01:22:00.968] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:22:00.968] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:22:00.970] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:22:00.970] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:22:08.531] Browser ERROR   uncaughtError: ReferenceError: module is not defined
+[01:22:08.868] Browser ERROR   uncaughtError: ReferenceError: module is not defined
+[01:23:28.461] Browser ERROR   uncaughtError: ReferenceError: module is not defined
+[01:24:19.615] Browser ERROR   uncaughtError: ReferenceError: module is not defined
+[01:25:06.953] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:25:06.956] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./components/RatingModal.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[01:25:06.960] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:25:07.421] Server  LOG     ✓ Compiled in 521ms
+[01:25:15.936] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:25:15.937] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./components/RatingModal.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[01:25:20.530] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:38:58.777] Browser ERROR   ./components/ChatWindow.js:4:1
+Export default doesn't exist in target module
+  2 | import { io } from "socket.io-client";
+  3 | import { useRouter } from "next/router";
+> 4 | import RatingModal from "./RatingModal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export default function ChatWindow() {
+  7 |   const router = useRouter();
+
+The export default was not found in module [project]/components/RatingModal.js [client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Browser:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+
+  SSR:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+[01:38:58.777] Browser ERROR   ./components/ChatWindow.js:4:1
+Export default doesn't exist in target module
+  2 | import { io } from "socket.io-client";
+  3 | import { useRouter } from "next/router";
+> 4 | import RatingModal from "./RatingModal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export default function ChatWindow() {
+  7 |   const router = useRouter();
+
+The export default was not found in module [project]/components/RatingModal.js [ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Browser:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+
+  SSR:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+[01:38:58.777] Browser ERROR   ./components/ChatWindow.js:4:1
+Export default doesn't exist in target module
+  2 | import { io } from "socket.io-client";
+  3 | import { useRouter } from "next/router";
+> 4 | import RatingModal from "./RatingModal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export default function ChatWindow() {
+  7 |   const router = useRouter();
+
+The export default was not found in module [project]/components/RatingModal.js [client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Browser:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+
+  SSR:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+[01:38:58.777] Browser ERROR   ./components/ChatWindow.js:4:1
+Export default doesn't exist in target module
+  2 | import { io } from "socket.io-client";
+  3 | import { useRouter } from "next/router";
+> 4 | import RatingModal from "./RatingModal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export default function ChatWindow() {
+  7 |   const router = useRouter();
+
+The export default was not found in module [project]/components/RatingModal.js [ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Browser:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+
+  SSR:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+[01:38:58.777] Browser ERROR   ./components/ChatWindow.js:4:1
+Export default doesn't exist in target module
+  2 | import { io } from "socket.io-client";
+  3 | import { useRouter } from "next/router";
+> 4 | import RatingModal from "./RatingModal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export default function ChatWindow() {
+  7 |   const router = useRouter();
+
+The export default was not found in module [project]/components/RatingModal.js [client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Browser:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+
+  SSR:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+[01:38:58.777] Browser ERROR   ./components/ChatWindow.js:4:1
+Export default doesn't exist in target module
+  2 | import { io } from "socket.io-client";
+  3 | import { useRouter } from "next/router";
+> 4 | import RatingModal from "./RatingModal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export default function ChatWindow() {
+  7 |   const router = useRouter();
+
+The export default was not found in module [project]/components/RatingModal.js [ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Browser:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+
+  SSR:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+[01:38:58.777] Browser ERROR   ./components/ChatWindow.js:4:1
+Export default doesn't exist in target module
+  2 | import { io } from "socket.io-client";
+  3 | import { useRouter } from "next/router";
+> 4 | import RatingModal from "./RatingModal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export default function ChatWindow() {
+  7 |   const router = useRouter();
+
+The export default was not found in module [project]/components/RatingModal.js [client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Browser:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+
+  SSR:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+[01:38:58.777] Browser ERROR   ./components/ChatWindow.js:4:1
+Export default doesn't exist in target module
+  2 | import { io } from "socket.io-client";
+  3 | import { useRouter } from "next/router";
+> 4 | import RatingModal from "./RatingModal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export default function ChatWindow() {
+  7 |   const router = useRouter();
+
+The export default was not found in module [project]/components/RatingModal.js [ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Browser:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+
+  SSR:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+[01:38:58.777] Browser ERROR   ./components/ChatWindow.js:4:1
+Export default doesn't exist in target module
+  2 | import { io } from "socket.io-client";
+  3 | import { useRouter } from "next/router";
+> 4 | import RatingModal from "./RatingModal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export default function ChatWindow() {
+  7 |   const router = useRouter();
+
+The export default was not found in module [project]/components/RatingModal.js [client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Browser:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+
+  SSR:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+[01:38:58.777] Browser ERROR   ./components/ChatWindow.js:4:1
+Export default doesn't exist in target module
+  2 | import { io } from "socket.io-client";
+  3 | import { useRouter } from "next/router";
+> 4 | import RatingModal from "./RatingModal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export default function ChatWindow() {
+  7 |   const router = useRouter();
+
+The export default was not found in module [project]/components/RatingModal.js [ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Browser:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+
+  SSR:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+[01:38:58.777] Browser ERROR   ./components/ChatWindow.js:4:1
+Export default doesn't exist in target module
+  2 | import { io } from "socket.io-client";
+  3 | import { useRouter } from "next/router";
+> 4 | import RatingModal from "./RatingModal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export default function ChatWindow() {
+  7 |   const router = useRouter();
+
+The export default was not found in module [project]/components/RatingModal.js [client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Browser:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+
+  SSR:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+[01:38:58.777] Browser ERROR   ./components/ChatWindow.js:4:1
+Export default doesn't exist in target module
+  2 | import { io } from "socket.io-client";
+  3 | import { useRouter } from "next/router";
+> 4 | import RatingModal from "./RatingModal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export default function ChatWindow() {
+  7 |   const router = useRouter();
+
+The export default was not found in module [project]/components/RatingModal.js [ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Browser:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+
+  SSR:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+[01:38:58.777] Browser ERROR   ./components/ChatWindow.js:4:1
+Export default doesn't exist in target module
+  2 | import { io } from "socket.io-client";
+  3 | import { useRouter } from "next/router";
+> 4 | import RatingModal from "./RatingModal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export default function ChatWindow() {
+  7 |   const router = useRouter();
+
+The export default was not found in module [project]/components/RatingModal.js [client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Browser:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+
+  SSR:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+[01:38:58.777] Browser ERROR   ./components/ChatWindow.js:4:1
+Export default doesn't exist in target module
+  2 | import { io } from "socket.io-client";
+  3 | import { useRouter } from "next/router";
+> 4 | import RatingModal from "./RatingModal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export default function ChatWindow() {
+  7 |   const router = useRouter();
+
+The export default was not found in module [project]/components/RatingModal.js [ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Browser:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+
+  SSR:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+[01:38:58.777] Browser ERROR   ./components/ChatWindow.js:4:1
+Export default doesn't exist in target module
+  2 | import { io } from "socket.io-client";
+  3 | import { useRouter } from "next/router";
+> 4 | import RatingModal from "./RatingModal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export default function ChatWindow() {
+  7 |   const router = useRouter();
+
+The export default was not found in module [project]/components/RatingModal.js [client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Browser:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+
+  SSR:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+[01:38:58.777] Browser ERROR   ./components/ChatWindow.js:4:1
+Export default doesn't exist in target module
+  2 | import { io } from "socket.io-client";
+  3 | import { useRouter } from "next/router";
+> 4 | import RatingModal from "./RatingModal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export default function ChatWindow() {
+  7 |   const router = useRouter();
+
+The export default was not found in module [project]/components/RatingModal.js [ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Browser:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+
+  SSR:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+[01:38:58.777] Browser ERROR   ./components/ChatWindow.js:4:1
+Export default doesn't exist in target module
+  2 | import { io } from "socket.io-client";
+  3 | import { useRouter } from "next/router";
+> 4 | import RatingModal from "./RatingModal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export default function ChatWindow() {
+  7 |   const router = useRouter();
+
+The export default was not found in module [project]/components/RatingModal.js [client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Browser:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+
+  SSR:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+[01:38:58.777] Browser ERROR   ./components/ChatWindow.js:4:1
+Export default doesn't exist in target module
+  2 | import { io } from "socket.io-client";
+  3 | import { useRouter } from "next/router";
+> 4 | import RatingModal from "./RatingModal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export default function ChatWindow() {
+  7 |   const router = useRouter();
+
+The export default was not found in module [project]/components/RatingModal.js [ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Browser:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+
+  SSR:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+[01:38:58.777] Browser ERROR   ./components/ChatWindow.js:4:1
+Export default doesn't exist in target module
+  2 | import { io } from "socket.io-client";
+  3 | import { useRouter } from "next/router";
+> 4 | import RatingModal from "./RatingModal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export default function ChatWindow() {
+  7 |   const router = useRouter();
+
+The export default was not found in module [project]/components/RatingModal.js [client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Browser:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+
+  SSR:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+[01:38:58.777] Browser ERROR   ./components/ChatWindow.js:4:1
+Export default doesn't exist in target module
+  2 | import { io } from "socket.io-client";
+  3 | import { useRouter } from "next/router";
+> 4 | import RatingModal from "./RatingModal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export default function ChatWindow() {
+  7 |   const router = useRouter();
+
+The export default was not found in module [project]/components/RatingModal.js [ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Browser:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+
+  SSR:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+[01:38:58.777] Browser ERROR   ./components/ChatWindow.js:4:1
+Export default doesn't exist in target module
+  2 | import { io } from "socket.io-client";
+  3 | import { useRouter } from "next/router";
+> 4 | import RatingModal from "./RatingModal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export default function ChatWindow() {
+  7 |   const router = useRouter();
+
+The export default was not found in module [project]/components/RatingModal.js [client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Browser:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+
+  SSR:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+[01:38:58.777] Browser ERROR   ./components/ChatWindow.js:4:1
+Export default doesn't exist in target module
+  2 | import { io } from "socket.io-client";
+  3 | import { useRouter } from "next/router";
+> 4 | import RatingModal from "./RatingModal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export default function ChatWindow() {
+  7 |   const router = useRouter();
+
+The export default was not found in module [project]/components/RatingModal.js [ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Browser:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+
+  SSR:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+[01:38:58.777] Browser ERROR   ./components/ChatWindow.js:4:1
+Export default doesn't exist in target module
+  2 | import { io } from "socket.io-client";
+  3 | import { useRouter } from "next/router";
+> 4 | import RatingModal from "./RatingModal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export default function ChatWindow() {
+  7 |   const router = useRouter();
+
+The export default was not found in module [project]/components/RatingModal.js [client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Browser:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+
+  SSR:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+[01:38:58.777] Browser ERROR   ./components/ChatWindow.js:4:1
+Export default doesn't exist in target module
+  2 | import { io } from "socket.io-client";
+  3 | import { useRouter } from "next/router";
+> 4 | import RatingModal from "./RatingModal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export default function ChatWindow() {
+  7 |   const router = useRouter();
+
+The export default was not found in module [project]/components/RatingModal.js [ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Browser:
+    ./components/ChatWindow.js
+    ./pages/chat.js
+
+  SSR:
+    ./components/ChatWindow.js
+    ./pages/chat.js

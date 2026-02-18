@@ -1,0 +1,121 @@
+/* [project]/styles/globals.css [client] (css) */
+body {
+  color: #fff;
+  background: #0f172a;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  flex-direction: column;
+  max-width: 800px;
+  height: 100vh;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.status {
+  text-align: center;
+  color: #94a3b8;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.chat-box {
+  background: #1e293b;
+  border-radius: 10px;
+  flex-direction: column;
+  flex: 1;
+  gap: 10px;
+  padding: 15px;
+  display: flex;
+  overflow-y: auto;
+}
+
+.message {
+  word-wrap: break-word;
+  border-radius: 15px;
+  max-width: 70%;
+  padding: 10px 14px;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.message.you {
+  text-align: right;
+  background: #3b82f6;
+  align-self: flex-end;
+}
+
+.message.partner {
+  text-align: left;
+  background: #334155;
+  align-self: flex-start;
+}
+
+.input-area {
+  gap: 10px;
+  margin-top: 15px;
+  display: flex;
+}
+
+input {
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  flex: 1;
+  padding: 10px;
+  font-size: 14px;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 16px;
+  font-weight: bold;
+  transition: all .2s;
+}
+
+.label {
+  opacity: .7;
+  margin-bottom: 4px;
+  font-size: 11px;
+  display: block;
+}
+
+.actions {
+  gap: 10px;
+  margin-top: 15px;
+  display: flex;
+}
+
+button.danger {
+  background: #ef4444;
+}
+
+button.primary {
+  color: #fff;
+  background: #3b82f6;
+}
+
+button.primary:hover {
+  background: #2563eb;
+}
+
+button.secondary {
+  color: #fff;
+  background: #475569;
+}
+
+button.secondary:hover {
+  background: #334155;
+}
+
+/*# sourceMappingURL=styles_globals_dc36e6c9.css.map*/
