@@ -25,7 +25,7 @@ export default function ChatWindow() {
   useEffect(() => {
     if (!theme) return;
 
-    const socket = io("http://localhost:3001");
+    const socket = io("https://nexora-5ceq.onrender.com");
     socketRef.current = socket;
 
 
